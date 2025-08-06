@@ -19,7 +19,7 @@ main().then((res)=>{
 }
     
 app.use(cors({
-  origin: "http://127.0.0.1:5500",  // or 'localhost:5500' — must match your frontend
+  origin: "*",  // or 'localhost:5500' — must match your frontend // http://127.0.0.1:5500
   credentials: true,
 }));
 
